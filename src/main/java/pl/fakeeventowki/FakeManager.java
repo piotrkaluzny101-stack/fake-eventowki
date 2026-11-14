@@ -29,7 +29,7 @@ public final class FakeManager {
 		if (player == null) return;
 
 		PlayerInventory inv = player.getInventory();
-		int slot = inv.getSelectedSlot();
+		int slot = inv.selectedSlot;
 		ItemStack current = inv.getStack(slot);
 
 		if (current.isEmpty()) {
@@ -54,7 +54,7 @@ public final class FakeManager {
 		if (player == null) return;
 
 		PlayerInventory inv = player.getInventory();
-		int slot = inv.getSelectedSlot();
+		int slot = inv.selectedSlot;
 		Entry entry = ENTRIES.remove(slot);
 		ItemStack current = inv.getStack(slot);
 
