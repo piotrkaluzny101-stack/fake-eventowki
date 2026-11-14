@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fakeeventowki",
+  "version": "${version}",
+  "name": "Fake Eventówki",
+  "description": "Klientowy mod: zamienia przedmiot w ręce na wizualną kopię eventówek z anarchia.gg. Menu pod klawiszem INSERT (do zmiany w Controls).",
+  "authors": ["Fake Eventówki"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.fakeeventowki.FakeEventowkiClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
